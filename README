@@ -1,0 +1,2 @@
+run test in chrome headless- npm run pageObjects-chrome"
+run test in chrome headed- npm run pageObjects-chrome-headed

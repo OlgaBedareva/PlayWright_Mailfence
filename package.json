@@ -1,0 +1,21 @@
+{
+  "name": "mailfancepr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pageObjects-chrome": "npx playwright test mailFance.spec.ts --project=chromium",
+    "pageObjects-chrome-headed": "npx playwright test mailFance.spec.ts --project=chromium --headed"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
